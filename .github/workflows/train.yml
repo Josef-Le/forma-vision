@@ -1,0 +1,74 @@
+name: forma-vision pipeline
+# Runs on your free GitHub: harvest free-licensed images, scrape contest
+# results, and (if a dataset is present) train the model — all on Actions
+# runners. Trigger from the Actions tab (works from a phone).
+
+on:
+  workflow_dispatch:
+    inputs:
+      harvest_limit:
+        description: "Commons images per query (0 = skip harvest)"
+        default: "15"
+      epochs:
+        description: "Training epochs (0 = skip training)"
+        default: "10"
+      backbone:
+        default: "convnext_tiny"
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install (CPU torch)
+        run: |
+          pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install timm pillow numpy pyyaml tqdm pandas flask lxml
+
+      - name: Scrape contest results (facts only)
+        run: |
+          mkdir -p dataset
+          python -m formavision.datasets.contest_results --olympia --out dataset/contest_results.csv || true
+
+      - name: Harvest free-licensed Commons images
+        if: ${{ github.event.inputs.harvest_limit != '0' }}
+        run: python -m formavision.datasets.commons --out dataset --limit ${{ github.event.inputs.harvest_limit }}
+
+      - name: Pseudo-label with the LLM judge (distillation)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            pip install anthropic
+            python -m formavision.pseudo_label --data dataset --limit 600
+          else
+            echo "no ANTHROPIC_API_KEY repo secret — skipping distillation (add one in repo Settings → Secrets to enable)"
+          fi
+
+      - name: Train
+        if: ${{ github.event.inputs.epochs != '0' }}
+        run: |
+          if [ -f dataset/labels.json ] || [ -f dataset/labels.yaml ]; then
+            python -m formavision.train --data dataset --epochs ${{ github.event.inputs.epochs }} \
+              --backbone ${{ github.event.inputs.backbone }} --workers 2 --out runs/ci
+          else
+            echo "no labels file in dataset/ — commit your labeled dataset or import a bundle first"
+          fi
+
+      - name: Upload dataset + model artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: forma-vision-output
+          path: |
+            dataset/attribution.csv
+            dataset/contest_results.csv
+            dataset/labels.json
+            runs/ci/best.pt
+            runs/ci/log.csv
+          if-no-files-found: ignore

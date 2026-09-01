@@ -1,0 +1,11 @@
+# Reference hyperparameters (mirrors train.py defaults)
+backbone: convnext_tiny     # alternatives: convnext_small, vit_base_patch16_384, efficientnet_b3
+img_size: 384
+epochs: 30
+batch_size: 16
+lr: 3.0e-5                  # backbone
+head_lr: 3.0e-4
+weight_decay: 0.01
+warmup_epochs: 2
+freeze_epochs: 2
+val_frac: 0.15
