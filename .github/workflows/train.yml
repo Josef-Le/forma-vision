@@ -1,9 +1,15 @@
 name: forma-vision pipeline
-# Runs on your free GitHub: harvest free-licensed images, scrape contest
-# results, and (if a dataset is present) train the model — all on Actions
-# runners. Trigger from the Actions tab (works from a phone).
+# Full pipeline on free GitHub runners: scrape contest results, harvest
+# free-licensed images, distillation-label them with the LLM judge, train,
+# and commit the outputs (labels, attribution, metrics, fp16 model) back to
+# the repo under outputs/ — so results flow back over plain git.
+# Triggers: every push to main, or manually from the Actions tab.
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "outputs/**"
   workflow_dispatch:
     inputs:
       harvest_limit:
@@ -11,14 +17,21 @@ on:
         default: "15"
       epochs:
         description: "Training epochs (0 = skip training)"
-        default: "10"
+        default: "8"
       backbone:
         default: "convnext_tiny"
+
+permissions:
+  contents: write
 
 jobs:
   pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 340
+    env:
+      HARVEST: ${{ github.event.inputs.harvest_limit || '15' }}
+      EPOCHS: ${{ github.event.inputs.epochs || '8' }}
+      BACKBONE: ${{ github.event.inputs.backbone || 'convnext_tiny' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -29,7 +42,7 @@ jobs:
       - name: Install (CPU torch)
         run: |
           pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
-          pip install timm pillow numpy pyyaml tqdm pandas flask lxml
+          pip install timm pillow numpy pyyaml tqdm pandas flask lxml anthropic
 
       - name: Scrape contest results (facts only)
         run: |
@@ -37,38 +50,59 @@ jobs:
           python -m formavision.datasets.contest_results --olympia --out dataset/contest_results.csv || true
 
       - name: Harvest free-licensed Commons images
-        if: ${{ github.event.inputs.harvest_limit != '0' }}
-        run: python -m formavision.datasets.commons --out dataset --limit ${{ github.event.inputs.harvest_limit }}
+        if: ${{ env.HARVEST != '0' }}
+        run: python -m formavision.datasets.commons --out dataset --limit $HARVEST
 
       - name: Pseudo-label with the LLM judge (distillation)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          if [ -n "$ANTHROPIC_API_KEY" ]; then
-            pip install anthropic
+          if [ -n "$OPENROUTER_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
             python -m formavision.pseudo_label --data dataset --limit 600
           else
-            echo "no ANTHROPIC_API_KEY repo secret — skipping distillation (add one in repo Settings → Secrets to enable)"
+            echo "no OPENROUTER_API_KEY / ANTHROPIC_API_KEY repo secret — skipping distillation"
           fi
 
       - name: Train
-        if: ${{ github.event.inputs.epochs != '0' }}
+        if: ${{ env.EPOCHS != '0' }}
         run: |
           if [ -f dataset/labels.json ] || [ -f dataset/labels.yaml ]; then
-            python -m formavision.train --data dataset --epochs ${{ github.event.inputs.epochs }} \
-              --backbone ${{ github.event.inputs.backbone }} --workers 2 --out runs/ci
+            python -m formavision.train --data dataset --epochs $EPOCHS \
+              --backbone $BACKBONE --workers 2 --out runs/ci || echo "training skipped/failed — see log above"
           else
-            echo "no labels file in dataset/ — commit your labeled dataset or import a bundle first"
+            echo "no labels file in dataset/ — nothing to train on yet"
           fi
 
-      - name: Upload dataset + model artifacts
+      - name: Commit outputs back to the repo
+        run: |
+          mkdir -p outputs
+          cp -f dataset/labels.json outputs/ 2>/dev/null || true
+          cp -f dataset/attribution.csv outputs/ 2>/dev/null || true
+          cp -f dataset/contest_results.csv outputs/ 2>/dev/null || true
+          cp -f runs/ci/log.csv outputs/train_log.csv 2>/dev/null || true
+          if [ -f runs/ci/best.pt ]; then
+            python - <<'PY'
+          import torch
+          ck = torch.load("runs/ci/best.pt", map_location="cpu")
+          slim = {"model": {k: v.half() if v.is_floating_point() else v for k, v in ck["model"].items()},
+                  "args": ck.get("args", {}), "epoch": ck.get("epoch"), "fp16": True}
+          torch.save(slim, "outputs/model_fp16.pt")
+          PY
+          fi
+          git config user.name "forma-vision-ci"
+          git config user.email "actions@github.com"
+          git add outputs/
+          git diff --cached --quiet || git commit -m "ci: pipeline outputs (labels, attribution, metrics, model)"
+          git push || echo "push of outputs failed (non-fatal)"
+
+      - name: Upload artifacts (full-precision model)
         uses: actions/upload-artifact@v4
         with:
           name: forma-vision-output
           path: |
-            dataset/attribution.csv
-            dataset/contest_results.csv
-            dataset/labels.json
             runs/ci/best.pt
             runs/ci/log.csv
+            dataset/labels.json
+            dataset/attribution.csv
           if-no-files-found: ignore
