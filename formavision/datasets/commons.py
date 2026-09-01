@@ -53,10 +53,25 @@ POSE_HINTS = {
 
 
 def _api(params: dict) -> dict:
+    """API call with polite backoff — a 429/5xx never kills the harvest."""
     qs = urllib.parse.urlencode({**params, "format": "json"})
     req = urllib.request.Request(f"{API}?{qs}", headers=UA)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r)
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503) and attempt < 3:
+                wait = int(e.headers.get("Retry-After") or 0) or (8 * (2 ** attempt))
+                print(f"  API {e.code} — backing off {wait}s")
+                time.sleep(wait)
+                continue
+            print(f"  API gave up ({e.code})")
+            return {"query": {"pages": {}}}
+        except Exception as e:  # noqa: BLE001
+            print(f"  API error: {e}")
+            return {"query": {"pages": {}}}
+    return {"query": {"pages": {}}}
 
 
 def _item_from_page(p: dict) -> dict | None:
@@ -69,7 +84,9 @@ def _item_from_page(p: dict) -> dict | None:
     if (ii.get("width") or 0) < 300 or (ii.get("height") or 0) < 400:
         return None
     author = re.sub(r"<[^>]+>", "", (meta.get("Artist") or {}).get("value", "unknown")).strip()
-    return {"title": p.get("title", ""), "url": ii.get("url"),
+    # Wikimedia asks bulk users to fetch THUMBNAILS, not originals — and we
+    # train at 384px, so a 1024px thumb is lossless for our purposes.
+    return {"title": p.get("title", ""), "url": ii.get("thumburl") or ii.get("url"),
             "author": author[:120], "license": lic,
             "page_url": ii.get("descriptionurl", "")}
 
@@ -82,7 +99,7 @@ def search_images(query: str, limit: int) -> list[dict]:
             "action": "query", "generator": "search",
             "gsrsearch": f"filetype:bitmap {query}", "gsrnamespace": 6,
             "gsrlimit": min(50, limit), "prop": "imageinfo",
-            "iiprop": "url|extmetadata|size", **cont,
+            "iiprop": "url|extmetadata|size", "iiurlwidth": "1024", **cont,
         }
         data = _api(params)
         for p in ((data.get("query") or {}).get("pages", {})).values():
@@ -116,7 +133,7 @@ def category_images(cat: str, budget: int, max_depth: int = 2) -> list[dict]:
             params = {"action": "query", "generator": "categorymembers",
                       "gcmtitle": current, "gcmtype": "file|subcat",
                       "gcmlimit": "100", "prop": "imageinfo",
-                      "iiprop": "url|extmetadata|size", **cont}
+                      "iiprop": "url|extmetadata|size", "iiurlwidth": "1024", **cont}
             try:
                 data = _api(params)
             except Exception as e:  # noqa: BLE001
@@ -149,6 +166,8 @@ def harvest(queries: list[str], out_dir: Path, limit: int,
     attr_path = out_dir / "attribution.csv"
     new_attr = not attr_path.exists()
     n = 0
+    throttled = 0
+    stop = False
     with attr_path.open("a", newline="", encoding="utf-8") as af:
         aw = csv.writer(af)
         if new_attr:
@@ -164,20 +183,42 @@ def harvest(queries: list[str], out_dir: Path, limit: int,
                 name = re.sub(r"[^A-Za-z0-9._-]", "_", item["title"].replace("File:", ""))[:120]
                 if name in seen or not item["url"]:
                     continue
-                try:
-                    req = urllib.request.Request(item["url"], headers=UA)
-                    data = urllib.request.urlopen(req, timeout=60).read()
-                    (img_dir / name).write_bytes(data)
-                except Exception as e:  # noqa: BLE001
-                    print(f"  skip {name}: {e}")
+                data = None
+                for attempt in range(2):
+                    try:
+                        req = urllib.request.Request(item["url"], headers=UA)
+                        data = urllib.request.urlopen(req, timeout=60).read()
+                        throttled = 0
+                        break
+                    except urllib.error.HTTPError as e:
+                        if e.code == 429:
+                            throttled += 1
+                            if attempt == 0:
+                                wait = int(e.headers.get("Retry-After") or 0) or 30
+                                print(f"  429 on {name} — waiting {wait}s")
+                                time.sleep(wait)
+                                continue
+                        print(f"  skip {name}: {e}")
+                        break
+                    except Exception as e:  # noqa: BLE001
+                        print(f"  skip {name}: {e}")
+                        break
+                if throttled >= 3:
+                    print("  rate limited 3x in a row — stopping this harvest politely; a rerun continues where this left off")
+                    stop = True
+                    break
+                if data is None:
                     continue
+                (img_dir / name).write_bytes(data)
                 labels.append({"image": name, "pose": pose,
                                "bf_method": None})  # unlabeled: label in studio
                 aw.writerow([name, item["author"], item["license"], item["page_url"]])
                 seen.add(name)
                 n += 1
-                time.sleep(0.3)
+                time.sleep(1.0)
             print(f"[{q}] total so far: {n}")
+            if stop:
+                break
     labels_path.write_text(json.dumps(labels, indent=1), encoding="utf-8")
     return n
 

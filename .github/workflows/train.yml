@@ -51,7 +51,7 @@ jobs:
 
       - name: Harvest free-licensed Commons images
         if: ${{ env.HARVEST != '0' }}
-        run: python -m formavision.datasets.commons --out dataset --limit $HARVEST
+        run: python -m formavision.datasets.commons --out dataset --limit $HARVEST || echo "harvest ended early (rate limit?) — continuing with what we have"
 
       - name: Pseudo-label with the LLM judge (distillation)
         env:
