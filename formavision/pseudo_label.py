@@ -42,6 +42,16 @@ def _shrink(path: Path, max_px: int = 720) -> tuple[str, str]:
     return base64.b64encode(buf.getvalue()).decode(), "image/jpeg"
 
 
+def _parse(text: str) -> dict | None:
+    start, end = text.find("{"), text.rfind("}")
+    if start < 0 or end < 0:
+        return None
+    data = json.loads(text[start:end + 1])
+    if data.get("skip"):
+        return None
+    return data
+
+
 def label_one(client, model: str, img_path: Path) -> dict | None:
     b64, mime = _shrink(img_path)
     msg = client.messages.create(
@@ -51,12 +61,37 @@ def label_one(client, model: str, img_path: Path) -> dict | None:
             {"type": "text", "text": PROMPT},
         ]}])
     text = "".join(b.text for b in msg.content if b.type == "text")
-    start, end = text.find("{"), text.rfind("}")
-    if start < 0 or end < 0:
+    data = _parse(text)
+    if data is None:
         return None
-    data = json.loads(text[start:end + 1])
-    if data.get("skip"):
-        return None
+    return _to_record(data)
+
+
+def label_one_openrouter(api_key: str, model: str, img_path: Path) -> dict | None:
+    """Same labeling call through OpenRouter's OpenAI-compatible API (stdlib only)."""
+    import urllib.request
+    b64, mime = _shrink(img_path)
+    body = json.dumps({
+        "model": model, "max_tokens": 1500,
+        "messages": [{"role": "user", "content": [
+            {"type": "image_url", "image_url": {"url": f"data:{mime};base64,{b64}"}},
+            {"type": "text", "text": PROMPT},
+        ]}],
+    }).encode()
+    req = urllib.request.Request(
+        "https://openrouter.ai/api/v1/chat/completions", data=body,
+        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json",
+                 "HTTP-Referer": "https://github.com", "X-Title": "forma-vision"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        resp = json.load(r)
+    if resp.get("error"):
+        raise RuntimeError(str(resp["error"])[:200])
+    text = resp["choices"][0]["message"]["content"] or ""
+    data = _parse(text)
+    return None if data is None else _to_record(data)
+
+
+def _to_record(data: dict) -> dict | None:
     out = {}
     if isinstance(data.get("bf"), (int, float)) and 2 <= data["bf"] <= 60:
         out["bf"] = round(float(data["bf"]), 1)
@@ -79,16 +114,29 @@ def label_one(client, model: str, img_path: Path) -> dict | None:
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--data", required=True, help="dataset dir (images/ + labels file)")
-    ap.add_argument("--model", default="claude-sonnet-4-5", help="vision model for labeling")
+    ap.add_argument("--model", default="auto", help="vision model for labeling (auto = provider default)")
     ap.add_argument("--limit", type=int, default=0, help="max images this run (0 = all)")
     ap.add_argument("--relabel", action="store_true", help="also redo already-labeled records")
     args = ap.parse_args(argv)
 
-    try:
-        import anthropic
-    except ImportError:
-        raise SystemExit("pip install anthropic  (and set ANTHROPIC_API_KEY)")
-    client = anthropic.Anthropic()
+    import os
+    or_key = os.environ.get("OPENROUTER_API_KEY")
+    an_key = os.environ.get("ANTHROPIC_API_KEY")
+    if or_key:
+        model = args.model if args.model != "auto" else "anthropic/claude-sonnet-4.5"
+        label_fn = lambda p: label_one_openrouter(or_key, model, p)  # noqa: E731
+        provider = "openrouter"
+    elif an_key:
+        try:
+            import anthropic
+        except ImportError:
+            raise SystemExit("pip install anthropic")
+        client = anthropic.Anthropic()
+        model = args.model if args.model != "auto" else "claude-sonnet-4-5"
+        label_fn = lambda p: label_one(client, model, p)  # noqa: E731
+        provider = "anthropic"
+    else:
+        raise SystemExit("set OPENROUTER_API_KEY or ANTHROPIC_API_KEY")
 
     root = Path(args.data)
     labels_path = find_labels_file(root) if any(
@@ -111,7 +159,7 @@ def main(argv=None):
             (r.get("bf") is None and not r.get("muscles"))]
     if args.limit:
         todo = todo[:args.limit]
-    print(f"{len(records)} records, labeling {len(todo)} with {args.model}")
+    print(f"{len(records)} records, labeling {len(todo)} via {provider} ({model})")
 
     done = 0
     for r in todo:
@@ -119,7 +167,7 @@ def main(argv=None):
         if not img_path.exists():
             continue
         try:
-            lab = label_one(client, args.model, img_path)
+            lab = label_fn(img_path)
         except Exception as e:  # noqa: BLE001 — keep the batch alive
             print(f"  {r['image']}: {e}")
             time.sleep(3)
