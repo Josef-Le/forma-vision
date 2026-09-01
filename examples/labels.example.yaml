@@ -1,0 +1,17 @@
+# One record per photo — every field except `image` is optional.
+- image: 2026-09-01_front.jpg
+  pose: Front Relaxed
+  bf: 14.5
+  bf_method: DEXA          # DEXA | Caliper | BIA | Navy | judge | estimate
+  judge_score: 6.5
+  weight_kg: 80.2
+  sex: male
+  height_cm: 178
+  measurements: {waist: 82, chest: 104, arm: 40, thigh: 60, hips: 96}
+  muscles:
+    Side delts: {size: 5.5, definition: 5}
+    Chest: {size: 6.5, definition: 6}
+- image: 2026-09-01_back.jpg
+  pose: Back Double Biceps
+  bf: 14.5
+  bf_method: DEXA
