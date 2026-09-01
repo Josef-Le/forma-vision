@@ -1,0 +1,352 @@
+[
+ {
+  "image": "Colker_gym.jpg",
+  "pose": "Side Chest",
+  "bf_method": "estimate",
+  "bf": 18.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 6.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 6.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 6.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 4.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 5.0
+   }
+  }
+ },
+ {
+  "image": "Hitman_on_side_chest_pose..jpg",
+  "pose": "Side Chest",
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 9.0,
+    "definition": 8.0
+   },
+   "Hamstrings": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "BodybuildingWoman.jpg",
+  "pose": "Back Double Biceps",
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Upper back": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Front delts": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Dexter_Jackson_IFBB_2008_Australia_3.jpg",
+  "pose": "Most Muscular (Crab)",
+  "bf_method": "estimate",
+  "bf": 4.0,
+  "judge_score": 9.0,
+  "muscles": {
+   "Chest": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Lats": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Upper back": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Traps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Front delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Side delts": {
+    "size": 9.0,
+    "definition": 10
+   },
+   "Rear delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Biceps": {
+    "size": 9.0,
+    "definition": 10
+   },
+   "Triceps": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Forearms": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Abs": {
+    "size": 9.0,
+    "definition": 10
+   },
+   "Glutes": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Quads": {
+    "size": 10,
+    "definition": 10
+   },
+   "Hamstrings": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Calves": {
+    "size": 8.0,
+    "definition": 9.0
+   }
+  }
+ },
+ {
+  "image": "2826251_Soldiers_and_civilians_pose_for_a_panel_of_judges_at__The_Rock__Bodybuilding_and_Figure_Competition_at_Woodruff_",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Quads": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Hamstrings": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "Bent-over-cable-lateral-raises-1.png",
+  "pose": null,
+  "bf_method": null
+ }
+]

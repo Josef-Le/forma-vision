@@ -1,0 +1,9 @@
+epoch,loss,mae_bf,mae_size,mae_judge,lr
+1,25.2507,nan,nan,nan,1.50e-05
+2,24.5472,nan,nan,nan,3.00e-05
+3,17.8220,nan,nan,nan,2.80e-05
+4,6.6330,nan,nan,nan,2.25e-05
+5,6.0762,nan,nan,nan,1.50e-05
+6,4.3432,nan,nan,nan,7.50e-06
+7,4.1441,nan,nan,nan,2.01e-06
+8,3.7728,nan,nan,nan,0.00e+00
