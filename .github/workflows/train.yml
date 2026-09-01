@@ -14,7 +14,7 @@ on:
     inputs:
       harvest_limit:
         description: "Commons images per query (0 = skip harvest)"
-        default: "15"
+        default: "40"
       epochs:
         description: "Training epochs (0 = skip training)"
         default: "8"
@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 340
     env:
-      HARVEST: ${{ github.event.inputs.harvest_limit || '15' }}
+      HARVEST: ${{ github.event.inputs.harvest_limit || '40' }}
       EPOCHS: ${{ github.event.inputs.epochs || '8' }}
       BACKBONE: ${{ github.event.inputs.backbone || 'convnext_tiny' }}
     steps:

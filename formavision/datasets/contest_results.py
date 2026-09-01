@@ -13,16 +13,23 @@ import csv
 
 
 def scrape_olympia(out_path: str) -> int:
+    import io
+    import time
+    import urllib.request
     import pandas as pd
     from pathlib import Path
     Path(out_path).parent.mkdir(parents=True, exist_ok=True)
-    url = "https://en.wikipedia.org/wiki/List_of_male_professional_bodybuilders"
+    UA = {"User-Agent": "forma-vision/1.0 (contest results; respectful scraper)"}
     rows = []
     # Year pages carry a Results table; iterate a safe recent span.
     for year in range(1990, 2026):
         page = f"https://en.wikipedia.org/wiki/{year}_Mr._Olympia"
         try:
-            tables = pd.read_html(page)
+            # Wikipedia rejects the default Python UA — fetch with a real one.
+            req = urllib.request.Request(page, headers=UA)
+            html = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
+            tables = pd.read_html(io.StringIO(html))
+            time.sleep(0.4)
         except Exception:
             continue
         for t in tables:
