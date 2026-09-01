@@ -19,15 +19,15 @@
     "definition": 6.0
    },
    "Traps": {
-    "size": 7.0,
+    "size": 8.0,
     "definition": 6.0
    },
    "Front delts": {
     "size": 8.0,
-    "definition": 6.0
+    "definition": 7.0
    },
    "Side delts": {
-    "size": 8.0,
+    "size": 9.0,
     "definition": 7.0
    },
    "Rear delts": {
@@ -36,15 +36,15 @@
    },
    "Biceps": {
     "size": 8.0,
-    "definition": 6.0
+    "definition": 7.0
    },
    "Triceps": {
-    "size": 7.0,
+    "size": 8.0,
     "definition": 6.0
    },
    "Forearms": {
-    "size": 7.0,
-    "definition": 6.0
+    "size": 8.0,
+    "definition": 7.0
    },
    "Abs": {
     "size": 6.0,
@@ -77,35 +77,35 @@
   "muscles": {
    "Chest": {
     "size": 8.0,
-    "definition": 7.0
+    "definition": 8.0
    },
    "Lats": {
     "size": 7.0,
-    "definition": 6.0
+    "definition": 7.0
    },
    "Upper back": {
     "size": 7.0,
-    "definition": 6.0
+    "definition": 7.0
    },
    "Traps": {
     "size": 7.0,
-    "definition": 6.0
+    "definition": 7.0
    },
    "Front delts": {
     "size": 8.0,
-    "definition": 7.0
+    "definition": 8.0
    },
    "Side delts": {
     "size": 8.0,
-    "definition": 7.0
+    "definition": 8.0
    },
    "Rear delts": {
     "size": 7.0,
-    "definition": 6.0
+    "definition": 7.0
    },
    "Biceps": {
     "size": 8.0,
-    "definition": 7.0
+    "definition": 8.0
    },
    "Triceps": {
     "size": 7.0,
@@ -117,11 +117,11 @@
    },
    "Abs": {
     "size": 7.0,
-    "definition": 6.0
+    "definition": 7.0
    },
    "Glutes": {
     "size": 7.0,
-    "definition": 6.0
+    "definition": 7.0
    },
    "Quads": {
     "size": 9.0,
@@ -129,11 +129,80 @@
    },
    "Hamstrings": {
     "size": 8.0,
-    "definition": 7.0
+    "definition": 8.0
    },
    "Calves": {
     "size": 7.0,
     "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "131st_Airman_first_in_fitness_despite_having_to_relearn_to_walk_160408-Z-WB313-013.jpg",
+  "pose": "Back Double Biceps",
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Side delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Abs": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 5.0
    }
   }
  },
@@ -145,24 +214,24 @@
   "judge_score": 7.5,
   "muscles": {
    "Chest": {
-    "size": 5.0,
-    "definition": 6.0
+    "size": 1,
+    "definition": 1
    },
    "Lats": {
     "size": 7.0,
     "definition": 8.0
    },
    "Upper back": {
-    "size": 8.0,
-    "definition": 9.0
+    "size": 7.0,
+    "definition": 8.0
    },
    "Traps": {
     "size": 7.0,
     "definition": 8.0
    },
    "Front delts": {
-    "size": 6.0,
-    "definition": 7.0
+    "size": 1,
+    "definition": 1
    },
    "Side delts": {
     "size": 7.0,
@@ -185,24 +254,24 @@
     "definition": 7.0
    },
    "Abs": {
-    "size": 6.0,
-    "definition": 7.0
+    "size": 1,
+    "definition": 1
    },
    "Glutes": {
     "size": 7.0,
     "definition": 8.0
    },
    "Quads": {
+    "size": 1,
+    "definition": 1
+   },
+   "Hamstrings": {
     "size": 6.0,
     "definition": 7.0
    },
-   "Hamstrings": {
-    "size": 7.0,
-    "definition": 8.0
-   },
    "Calves": {
-    "size": 5.0,
-    "definition": 6.0
+    "size": 1,
+    "definition": 1
    }
   }
  },
@@ -211,7 +280,7 @@
   "pose": "Most Muscular (Crab)",
   "bf_method": "estimate",
   "bf": 4.0,
-  "judge_score": 9.0,
+  "judge_score": 9.2,
   "muscles": {
    "Chest": {
     "size": 9.0,
@@ -226,7 +295,7 @@
     "definition": 9.0
    },
    "Traps": {
-    "size": 8.0,
+    "size": 9.0,
     "definition": 9.0
    },
    "Front delts": {
@@ -234,7 +303,7 @@
     "definition": 9.0
    },
    "Side delts": {
-    "size": 9.0,
+    "size": 10,
     "definition": 10
    },
    "Rear delts": {
@@ -243,7 +312,7 @@
    },
    "Biceps": {
     "size": 9.0,
-    "definition": 10
+    "definition": 9.0
    },
    "Triceps": {
     "size": 9.0,
@@ -255,10 +324,10 @@
    },
    "Abs": {
     "size": 9.0,
-    "definition": 10
+    "definition": 9.0
    },
    "Glutes": {
-    "size": 8.0,
+    "size": 9.0,
     "definition": 9.0
    },
    "Quads": {
@@ -272,6 +341,75 @@
    "Calves": {
     "size": 8.0,
     "definition": 9.0
+   }
+  }
+ },
+ {
+  "image": "Phil_Heath_Kai_Greene.JPG",
+  "pose": "Most Muscular (Crab)",
+  "bf_method": "estimate",
+  "bf": 4.0,
+  "judge_score": 9.2,
+  "muscles": {
+   "Chest": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Lats": {
+    "size": 10,
+    "definition": 9.0
+   },
+   "Upper back": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Traps": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Front delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Side delts": {
+    "size": 10,
+    "definition": 10
+   },
+   "Rear delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Biceps": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Triceps": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Forearms": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Abs": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Quads": {
+    "size": 10,
+    "definition": 10
+   },
+   "Hamstrings": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Calves": {
+    "size": 8.0,
+    "definition": 8.0
    }
   }
  },
@@ -303,7 +441,7 @@
     "definition": 8.0
    },
    "Side delts": {
-    "size": 8.0,
+    "size": 7.0,
     "definition": 8.0
    },
    "Rear delts": {
@@ -323,11 +461,839 @@
     "definition": 7.0
    },
    "Abs": {
-    "size": 8.0,
+    "size": 7.0,
     "definition": 8.0
    },
    "Glutes": {
     "size": 7.0,
+    "definition": 7.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Hamstrings": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "Anura_Ranasinghe__Posing__Suit.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 18.0,
+  "judge_score": 3.0,
+  "muscles": {
+   "Chest": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Lats": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Upper back": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Traps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Front delts": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Side delts": {
+    "size": 2.0,
+    "definition": 2.0
+   },
+   "Rear delts": {
+    "size": 2.0,
+    "definition": 2.0
+   },
+   "Biceps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Triceps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Forearms": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Abs": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Glutes": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Quads": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Hamstrings": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Calves": {
+    "size": 3.0,
+    "definition": 2.0
+   }
+  }
+ },
+ {
+  "image": "Army_Strong__Sgt._Odyssey_U._Martin_named_the_women_s_tall_figure_and_bodybuilding_heavyweight_champion_at_the_2013_Musc",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Lats": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Upper back": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Front delts": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Triceps": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Basra_bodybuilding_competition_DVIDS288962.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 16.0,
+  "judge_score": 5.5,
+  "muscles": {
+   "Chest": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Lats": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Upper back": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Traps": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Front delts": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Side delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Rear delts": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Biceps": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Triceps": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 5.0
+   }
+  }
+ },
+ {
+  "image": "Basra_bodybuilding_competition_DVIDS288968.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Upper back": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Triceps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Forearms": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Abs": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Basra_bodybuilding_competition_DVIDS288972.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Basra_bodybuilding_competition_DVIDS288980.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Chill_Will_Lynch_bodybuilder.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 8.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Side delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Triceps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Quads": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Hamstrings": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 8.0
+   }
+  }
+ },
+ {
+  "image": "DF-SC-01-04792_Shawn_Wolfe_and_Derrick_Anderson_strike_poses_during_the_finals_of_the_9th_annual_Northern_Japan_Bodybuil",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 8.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Lats": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Upper back": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Traps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Front delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Side delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Rear delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Triceps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Quads": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Hamstrings": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 8.0
+   }
+  }
+ },
+ {
+  "image": "Female_bodybuilding_and_fitness_competition__Qu_bec__2006.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Lats": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Upper back": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Traps": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Front delts": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Side delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Rear delts": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Biceps": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Triceps": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Fisicoculturismo_argentino_.AFCA_._HORACIO_PATRONE_1__lugar_MR._GIMNASIO_ROMA_1966_en_categoria_Mayor_altura_1_85_mts__p",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Lats": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Upper back": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Front delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Side delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Triceps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Fisicoculturismo_argentino_AFCA_1__lugar_Horacio_Patrone_Torneo_Mr_CULTURA_FISICA_1968_categoria_junior._altura_1_85_mts",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Fisicoculturismo_argentino_AFCA_1__lugar_Torneo_Horacio_Patrone_Mr_CULTURA_FISICA_1968_categoria_junior_._altura_1_85_mt",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Glutes": {
+    "size": 6.0,
     "definition": 7.0
    },
    "Quads": {
@@ -345,8 +1311,3227 @@
   }
  },
  {
-  "image": "Bent-over-cable-lateral-raises-1.png",
+  "image": "Fisicoculturismo_argentino_AFCA_1__lugar_Torneo_Horacio_Patrone_Mr_CULTURA_FISICA_1968_categoria_junior_.jpg_altura_1_85",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Upper back": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Abs": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Five_men_in_swimwear_posing_on_the_beach__NINO_F_Scholten_Tel_Aviv_03_92.tiff",
   "pose": null,
   "bf_method": null
+ },
+ {
+  "image": "HORACIO_PATRONE___CON_UN_PESO_CORPORAL_DE_92_KILOS._ENTRENANDO_PARA_LOS_TORNEOS_DEL_A_O_1971.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Upper back": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Glutes": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Quads": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 5.0
+   }
+  }
+ },
+ {
+  "image": "Man_in_trunks_posing_for_the_camera._Tent_and_building_in_the_background__NINO_F_Scholten_Tel_Aviv_13_031.tiff",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 3.5,
+  "muscles": {
+   "Chest": {
+    "size": 3.0,
+    "definition": 4.0
+   },
+   "Lats": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Upper back": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Traps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Front delts": {
+    "size": 3.0,
+    "definition": 4.0
+   },
+   "Side delts": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Rear delts": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Biceps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Triceps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Forearms": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Abs": {
+    "size": 3.0,
+    "definition": 4.0
+   },
+   "Glutes": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Quads": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Hamstrings": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Calves": {
+    "size": 3.0,
+    "definition": 3.0
+   }
+  }
+ },
+ {
+  "image": "Man_in_trunks_posing_for_the_camera._Tent_and_building_in_the_background__NINO_F_Scholten_photographic_print_04_356.tiff",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 3.5,
+  "muscles": {
+   "Chest": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Lats": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Upper back": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Traps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Front delts": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Side delts": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Rear delts": {
+    "size": 2.0,
+    "definition": 2.0
+   },
+   "Biceps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Triceps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Forearms": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Abs": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Glutes": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Quads": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Hamstrings": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Calves": {
+    "size": 3.0,
+    "definition": 3.0
+   }
+  }
+ },
+ {
+  "image": "Man_posing_in_the_beach_with_a_disk__NINO_F_Scholten_Tel_Aviv_06_89.tiff",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 4.0,
+  "muscles": {
+   "Chest": {
+    "size": 3.0,
+    "definition": 4.0
+   },
+   "Lats": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Upper back": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Traps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Front delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Side delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Rear delts": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Biceps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Triceps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Forearms": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Abs": {
+    "size": 3.0,
+    "definition": 4.0
+   },
+   "Glutes": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Quads": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Hamstrings": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Calves": {
+    "size": 3.0,
+    "definition": 3.0
+   }
+  }
+ },
+ {
+  "image": "Man_wearing_a_trunk_lying_down_in_the_sand__posing__NINO_F_Scholten_Tel_Aviv_13_103.tiff",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 4.5,
+  "muscles": {
+   "Chest": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Lats": {
+    "size": 4.0,
+    "definition": 3.0
+   },
+   "Upper back": {
+    "size": 4.0,
+    "definition": 3.0
+   },
+   "Traps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Front delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Side delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Rear delts": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Biceps": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Triceps": {
+    "size": 4.0,
+    "definition": 3.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Abs": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Glutes": {
+    "size": 4.0,
+    "definition": 3.0
+   },
+   "Quads": {
+    "size": 4.0,
+    "definition": 3.0
+   },
+   "Hamstrings": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Calves": {
+    "size": 4.0,
+    "definition": 3.0
+   }
+  }
+ },
+ {
+  "image": "Man_wearing_a_trunk_lying_down_in_the_sand__posing__NINO_F_Scholten_photographic_print_17_182.tiff",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 18.0,
+  "judge_score": 3.0,
+  "muscles": {
+   "Chest": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Lats": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Upper back": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Traps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Front delts": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Side delts": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Rear delts": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Biceps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Triceps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Forearms": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Abs": {
+    "size": 2.0,
+    "definition": 1
+   },
+   "Glutes": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Quads": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Hamstrings": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Calves": {
+    "size": 3.0,
+    "definition": 2.0
+   }
+  }
+ },
+ {
+  "image": "Man_wearing_a_trunk_posing_for_the_camera__smiling__NINO_F_Scholten_Tel_Aviv_13_105.tiff",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 3.5,
+  "muscles": {
+   "Chest": {
+    "size": 3.0,
+    "definition": 4.0
+   },
+   "Lats": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Upper back": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Traps": {
+    "size": 2.0,
+    "definition": 3.0
+   },
+   "Front delts": {
+    "size": 3.0,
+    "definition": 4.0
+   },
+   "Side delts": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Rear delts": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Biceps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Triceps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Forearms": {
+    "size": 3.0,
+    "definition": 4.0
+   },
+   "Abs": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Glutes": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Quads": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Hamstrings": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Calves": {
+    "size": 3.0,
+    "definition": 3.0
+   }
+  }
+ },
+ {
+  "image": "Man_wearing_swimwear_posing_on_the_beach__NINO_F_Scholten_Tel_Aviv_04_53.tiff",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 4.0,
+  "muscles": {
+   "Chest": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Lats": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Upper back": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Traps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Front delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Side delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Rear delts": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Biceps": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Triceps": {
+    "size": 4.0,
+    "definition": 3.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Abs": {
+    "size": 4.0,
+    "definition": 3.0
+   },
+   "Glutes": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Quads": {
+    "size": 4.0,
+    "definition": 3.0
+   },
+   "Hamstrings": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Calves": {
+    "size": 3.0,
+    "definition": 3.0
+   }
+  }
+ },
+ {
+  "image": "Man_wearing_swimwear_posing_on_the_beach__NINO_F_Scholten_photographic_print_02_1117.tiff",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 4.0,
+  "muscles": {
+   "Chest": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Lats": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Upper back": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Traps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Front delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Side delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Rear delts": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Biceps": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Triceps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Abs": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Glutes": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Quads": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Hamstrings": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Calves": {
+    "size": 3.0,
+    "definition": 3.0
+   }
+  }
+ },
+ {
+  "image": "Nkhs8.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 5.5,
+  "muscles": {
+   "Chest": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Lats": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Upper back": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Traps": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Front delts": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Side delts": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Rear delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Biceps": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Triceps": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Abs": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Glutes": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Calves": {
+    "size": 4.0,
+    "definition": 4.0
+   }
+  }
+ },
+ {
+  "image": "Nkhs9.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 5.5,
+  "muscles": {
+   "Chest": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Lats": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Upper back": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Traps": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Front delts": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Side delts": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Rear delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Biceps": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Triceps": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Glutes": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 5.0
+   }
+  }
+ },
+ {
+  "image": "Team_Malmstrom_members_compete_in_bodybuilding_competition_150508-F-GF295-053.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 8.5,
+  "muscles": {
+   "Chest": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Side delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Rear delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Quads": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Hamstrings": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 8.0
+   }
+  }
+ },
+ {
+  "image": "Team_Malmstrom_members_compete_in_bodybuilding_competition_150508-F-GF295-211.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 5.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Lats": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Upper back": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Traps": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Front delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Side delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Rear delts": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Biceps": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Triceps": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Forearms": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Abs": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Glutes": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 5.0
+   }
+  }
+ },
+ {
+  "image": "Three_men_wearing_swimwear_posing_for_the_camera__NINO_F_Scholten_Tel_Aviv_04_55.tiff",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 4.0,
+  "muscles": {
+   "Chest": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Lats": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Upper back": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Traps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Front delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Side delts": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Rear delts": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Biceps": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Triceps": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Abs": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Glutes": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Quads": {
+    "size": 4.0,
+    "definition": 3.0
+   },
+   "Hamstrings": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Calves": {
+    "size": 3.0,
+    "definition": 3.0
+   }
+  }
+ },
+ {
+  "image": "Three_men_wearing_swimwear_posing_for_the_camera__NINO_F_Scholten_photographic_print_04_223.tiff",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 18.0,
+  "judge_score": 3.0,
+  "muscles": {
+   "Chest": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Lats": {
+    "size": 2.0,
+    "definition": 2.0
+   },
+   "Upper back": {
+    "size": 2.0,
+    "definition": 2.0
+   },
+   "Traps": {
+    "size": 2.0,
+    "definition": 2.0
+   },
+   "Front delts": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Side delts": {
+    "size": 2.0,
+    "definition": 2.0
+   },
+   "Rear delts": {
+    "size": 2.0,
+    "definition": 2.0
+   },
+   "Biceps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Triceps": {
+    "size": 2.0,
+    "definition": 2.0
+   },
+   "Forearms": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Abs": {
+    "size": 2.0,
+    "definition": 1
+   },
+   "Glutes": {
+    "size": 2.0,
+    "definition": 2.0
+   },
+   "Quads": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Hamstrings": {
+    "size": 2.0,
+    "definition": 2.0
+   },
+   "Calves": {
+    "size": 3.0,
+    "definition": 2.0
+   }
+  }
+ },
+ {
+  "image": "US_Army_51252_U.S._Forces_Europe_bodybuilding_champions_crowned_at_Wiesbaden_competition.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 8.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Quads": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Hamstrings": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 8.0
+   }
+  }
+ },
+ {
+  "image": "US_Army_51253_U.S._Forces_Europe_bodybuilding_champions_crowned_at_Wiesbaden_competition.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Quads": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Hamstrings": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "US_Army_53400__Natural_Freak__pumps_up_NTC.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 22.0,
+  "judge_score": 4.5,
+  "muscles": {
+   "Chest": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Lats": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Upper back": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Traps": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Front delts": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Side delts": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Rear delts": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Biceps": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Triceps": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Abs": {
+    "size": 4.0,
+    "definition": 3.0
+   },
+   "Glutes": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Quads": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Hamstrings": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Calves": {
+    "size": 4.0,
+    "definition": 4.0
+   }
+  }
+ },
+ {
+  "image": "US_Navy_021105-N-1288N-016_Darrell_A._Lewis_strikes_one_of_the_poses_he_used_in_competition.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 5.0,
+  "judge_score": 8.5,
+  "muscles": {
+   "Chest": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Lats": {
+    "size": 9.0,
+    "definition": 8.0
+   },
+   "Upper back": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Traps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Front delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Side delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Rear delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Triceps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Abs": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Quads": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Hamstrings": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 8.0
+   }
+  }
+ },
+ {
+  "image": "US_Navy_030514-N-3228G-005_Aviation_Maintenance_Administrationman_2nd_Class_George_F._Stowe_III_practices_his_poses_for_",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Glutes": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Quads": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 5.0
+   }
+  }
+ },
+ {
+  "image": "US_Navy_060318-N-9869B-070_U.S._Navy_reservist__DaRicha_Garner__left__poses_with_another_competitor_for_a_photo_of_the_t",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 5.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Front delts": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "Group_of_men_in_suits__NINO_F_Scholten_Tel_Aviv_05_042.tiff",
+  "pose": null,
+  "bf_method": null
+ },
+ {
+  "image": "Harshit_Pandey_on_stage_for_a_bodybuilding_competition.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 8.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Lats": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Upper back": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Side delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Rear delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Triceps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Quads": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Hamstrings": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 8.0
+   }
+  }
+ },
+ {
+  "image": "U_S_service_members__DoD_Civilians_and_their_family_members_flex_on_their_competition__5916489_.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Lats": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Upper back": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Front delts": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Side delts": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Triceps": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "2012_NPC_Jay_Cutler_Classic_Men_s_Physique_Competitor_John_Quinlan.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "2012_NPC_Men_s_Physique_Competitor_John_Quinlan.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Competition_brings_muscle__physique_DVIDS412875.jpg",
+  "pose": null,
+  "bf_method": null
+ },
+ {
+  "image": "2012_NPC_Atlantic_States_Men_s_Physique_Competitor_John_Quinlan.JPG",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "2012_NPC_Men_s_Master_s_National_Physique_Competitor_John_Quinlan_on_Stage_Image.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 8.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Upper back": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Side delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Rear delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "2012_NPC_Men_s_Physique_Masters_Nationals.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Upper back": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Abs": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "2012_NPC_Rhode_Island_Men_s_Physique_Winners_-_Male_Models_Anton_Antipov___John_Quinlan.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "2012_NPC_Team_Universe_Men_s_Physique_Competitor_John_Quinlan.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 8.0,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Side delts": {
+    "size": 9.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Elephant_d_Asie__Elephant_nature_park__Tha_lande_.jpg",
+  "pose": null,
+  "bf_method": null
+ },
+ {
+  "image": "Elephanteaux_d_Asie__Elephant_nature_park__Tha_lande_.jpg",
+  "pose": null,
+  "bf_method": null
+ },
+ {
+  "image": "Fodie_Diarra_CIP_2015_quals_t171738.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 18.0,
+  "judge_score": 3.0,
+  "muscles": {
+   "Chest": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Lats": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Upper back": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Traps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Front delts": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Side delts": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Rear delts": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Biceps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Triceps": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Forearms": {
+    "size": 3.0,
+    "definition": 3.0
+   },
+   "Abs": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Glutes": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Quads": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Hamstrings": {
+    "size": 3.0,
+    "definition": 2.0
+   },
+   "Calves": {
+    "size": 3.0,
+    "definition": 2.0
+   }
+  }
+ },
+ {
+  "image": "Male_Model___2012_NPC_Rhode_Island_State_Men_s_Physique_Competitor_John_Quinlan.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "_________________________________________________________________________05.jpg",
+  "pose": null,
+  "bf_method": null
+ },
+ {
+  "image": "_________________________________________________________________________06.jpg",
+  "pose": null,
+  "bf_method": null
+ },
+ {
+  "image": "_________________________________________________________________________11.jpg",
+  "pose": null,
+  "bf_method": null
+ },
+ {
+  "image": "_________________________________________________________________________13.jpg",
+  "pose": null,
+  "bf_method": null
+ },
+ {
+  "image": "Dyess_bikini_competition.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Lats": {
+    "size": 4.0,
+    "definition": 4.0
+   },
+   "Upper back": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Traps": {
+    "size": 3.0,
+    "definition": 4.0
+   },
+   "Front delts": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Side delts": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Rear delts": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Biceps": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Triceps": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Forearms": {
+    "size": 3.0,
+    "definition": 4.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Calves": {
+    "size": 4.0,
+    "definition": 5.0
+   }
+  }
+ },
+ {
+  "image": "Anna_Kushkian_IFBB_2026.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 10.0,
+  "judge_score": 8.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 9.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 7.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Hamstrings": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "DBFV_Petersberg.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Lats": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Upper back": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Traps": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Front delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Side delts": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Triceps": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Forearms": {
+    "size": 4.0,
+    "definition": 5.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Female_bodybuilder_Aleesha_Young_flexing.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 8.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Quads": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Hamstrings": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Calves": {
+    "size": 8.0,
+    "definition": 9.0
+   }
+  }
+ },
+ {
+  "image": "Mr._Olympia_parade_float__1981_-_DPLA_-_ee20b68e9677ddbd3d01152914bda4d4.jpg",
+  "pose": null,
+  "bf_method": null
+ },
+ {
+  "image": "USMC-13808.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 18.0,
+  "judge_score": 5.5,
+  "muscles": {
+   "Chest": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Lats": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Upper back": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Traps": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Front delts": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Side delts": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Rear delts": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Biceps": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Triceps": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Forearms": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Abs": {
+    "size": 5.0,
+    "definition": 3.0
+   },
+   "Glutes": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Quads": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 4.0
+   }
+  }
+ },
+ {
+  "image": "Angie_Semsch_at_the_2008_NGA_Heart_of_America_Natural_Classic__2596487367_.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Angie_Semsch_at_the_2008_NGA_Heart_of_America_Natural_Classic__2596487367___cropped_.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Side delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 5.0
+   }
+  }
+ },
+ {
+  "image": "Basra_bodybuilding_competition_DVIDS288960.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 7.5,
+  "muscles": {
+   "Chest": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Front delts": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Side delts": {
+    "size": 8.0,
+    "definition": 8.0
+   },
+   "Rear delts": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "Bodybuilder_Eugene_Rapin_from_behind_flexing_biceps_Wellcome_L0038400.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 12.0,
+  "judge_score": 5.5,
+  "muscles": {
+   "Chest": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Lats": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Upper back": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Traps": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Front delts": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Side delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Rear delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Biceps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Triceps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Forearms": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Abs": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Glutes": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Quads": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Hamstrings": {
+    "size": 5.0,
+    "definition": 4.0
+   },
+   "Calves": {
+    "size": 5.0,
+    "definition": 5.0
+   }
+  }
+ },
+ {
+  "image": "Ed_Fury_and_Jackie_Coey__1953.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Lats": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Upper back": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Traps": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Front delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Side delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Biceps": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Triceps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Glutes": {
+    "size": 5.0,
+    "definition": 5.0
+   },
+   "Quads": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 6.0
+   }
+  }
+ },
+ {
+  "image": "Eugen_Sandow__full-length_portrait__standing__left_profile__wearing_fig_leaf_and_flexing_muscle_with_fist_raised_to_fore",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 6.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Traps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Front delts": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Side delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Rear delts": {
+    "size": 7.0,
+    "definition": 7.0
+   },
+   "Biceps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Triceps": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Forearms": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Abs": {
+    "size": 6.0,
+    "definition": 5.0
+   },
+   "Glutes": {
+    "size": 7.0,
+    "definition": 6.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 6.0
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "FBB_Pectoralis_muscle_flex.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 8.0,
+  "judge_score": 8.5,
+  "muscles": {
+   "Chest": {
+    "size": 6.0,
+    "definition": 8.0
+   },
+   "Lats": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Upper back": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Front delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Side delts": {
+    "size": 9.0,
+    "definition": 9.0
+   },
+   "Rear delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Biceps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Triceps": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Quads": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Hamstrings": {
+    "size": 6.0,
+    "definition": 7.0
+   },
+   "Calves": {
+    "size": 6.0,
+    "definition": 7.0
+   }
+  }
+ },
+ {
+  "image": "Female_bodybuilder_Aleesha_Young_biceps_flex.jpg",
+  "pose": null,
+  "bf_method": "estimate",
+  "bf": 6.0,
+  "judge_score": 9.0,
+  "muscles": {
+   "Chest": {
+    "size": 7.0,
+    "definition": 9.0
+   },
+   "Lats": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Upper back": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Traps": {
+    "size": 7.0,
+    "definition": 9.0
+   },
+   "Front delts": {
+    "size": 9.0,
+    "definition": 10
+   },
+   "Side delts": {
+    "size": 9.0,
+    "definition": 10
+   },
+   "Rear delts": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Biceps": {
+    "size": 9.0,
+    "definition": 10
+   },
+   "Triceps": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Forearms": {
+    "size": 7.0,
+    "definition": 8.0
+   },
+   "Abs": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Glutes": {
+    "size": 8.0,
+    "definition": 9.0
+   },
+   "Quads": {
+    "size": 10,
+    "definition": 10
+   },
+   "Hamstrings": {
+    "size": 9.0,
+    "definition": 10
+   },
+   "Calves": {
+    "size": 7.0,
+    "definition": 8.0
+   }
+  }
  }
 ]
